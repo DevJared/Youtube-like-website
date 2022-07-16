@@ -1,0 +1,93 @@
+.side-bar{
+  position: fixed;
+  left: 0;
+  bottom: 0px;
+  top: 75px;
+  width: 240px;
+  background-color: white;
+  z-index: 200;
+  padding-top: 6px;
+  
+   
+  }
+
+  .side-bar:hover{
+    width: 240px;
+    overflow-y: scroll;
+    scrollbar-color: grey;
+    scrollbar-width: thin;
+  }
+
+
+
+.sidebar-link{
+  height: 40px;
+  cursor: pointer;
+  font-family: arial;
+  display: flex;
+  align-items: center;
+ 
+}
+
+
+
+.sidebar-link:hover{
+  background-color: rgb(238, 238, 238);
+}
+
+.sidebar-link img{
+  height: 24px;
+  vertical-align: middle;
+  margin-left: 24px;
+  margin-right: 25px;
+}
+
+.sidebar-link div{
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+h3{
+  font-size: 14px;
+  font-family: roboto;
+  color: grey;
+  margin-left: 24px;
+  margin-bottom: 4px;
+}
+
+hr{
+  width: 90%;
+  margin-left: 0;
+}
+
+.para-1{
+  font-family: roboto;
+  font-size: 14px;
+  color: rgb(150, 150, 150);
+  margin-bottom: 16px;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.para-2{
+  font-family: roboto;
+  font-size: 14px;
+  color: rgb(150, 150, 150);
+  margin-bottom: 16px;
+  padding-left: 20px;
+}
+
+.copyright{
+  font-family: roboto;
+  font-size: 14px;
+  color: rgb(150, 150, 150);
+  margin-bottom: 16px;
+  padding-left: 20px;
+}
+
+.sidebar-pics{
+  border-radius: 50%;
+}
+
+
